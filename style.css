@@ -115,7 +115,6 @@
 }
 
 .log_form .question {
-    width: 256px;
     color: var(--text-main, #292731);
     font: 500 16px Poppins;
     margin-left: 92px;
