@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.log_page {
+    display: flex;
+    height: 990px;
+}
+
+.common {
+    width: 710px;
+    background: #E2F0FF;
+}
+
+.common .image {
+    background-image: url(./assets/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 524px;
+    height: 391px;
+    margin: auto;
+    margin-top: 174px;
+}
+
+.common h2 {
+    color: var(--text-main, #292731);
+    text-align: center;
+    font: 600 26px Poppins;
+    width: 400px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+.common p {
+    width: 386px;
+    color: var(--text-gray, #455360);
+    text-align: center;
+    font: 400 16px Poppins;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.log_form {
+    background: #FFF;
+    width: 730px;
+    padding-top: 166px;
+    padding-left: 135px;
+}
+
+.log_form .img_hand {
+    background-image: url(./assets/hand.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+}
+
+.log_form h1 {
+    color: var(--text-main, #292731);
+    font: 600 30px Poppins;
+    margin-top: 12px;
+}
+
+.log_form #info {
+    color: var(--text-main, #292731);
+    font: 400 16px Poppins;
+    margin-top: 12px;
+}
+
+.log_form .email {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin-top: 62px;
+}
+
+.log_form p {
+    color: var(--text-gray, #455360);
+    font: 500 16px Poppins;
+}
+
+.log_form .email .img_info {
+    background-image: url(./assets/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.log_form input {
+    width: 418px;
+    height: 48px;
+    font: 400 16px Poppins;
+    border-radius: 4px;
+    background: var(--Input-field, #ECF2F7);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 22px;
+    border-color: #ECF2F7;
+}
+
+.log_form button {
+    width: 440px;
+    height: 54px;
+    align-items: center;
+    color: var(--White, #FFF);
+    font: 500 20px Poppins;
+    border-radius: 8px;
+    background: var(--Accent-Blue, #4C70FF);
+    border-color: #4C70FF;
+    margin-top: 14px;
+    margin-bottom: 21px;
+}
+
+.log_form .question {
+    width: 256px;
+    color: var(--text-main, #292731);
+    font: 500 16px Poppins;
+    margin-left: 92px;
+}
